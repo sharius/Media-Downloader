@@ -1,10 +1,10 @@
 # Media Downloader/Converter v1.0.0
 
-A Python application used to download video or audio from popular platforms via URL.
+A Python-based application designed to download video or audio content from a variety of popular social media platforms using a simple URL input.
 
-You are able to download video or audio content from a wide range of platforms—including but not limited to YouTube, Instagram, TikTok, Facebook, and more—by simply providing the media URL.
+With support for sites such as YouTube, Instagram, TikTok, Facebook, and many others, the application allows you to retrieve media in your preferred format.
 
-This is a fork, a now BETTER version, of [YouTube-Converter](https://github.com/Justagwas/YouTube-Converter)
+This project is a refined and improved fork of the original [YouTube-Converter](https://github.com/Justagwas/YouTube-Converter).
 
 ## Table of Contents
 
@@ -159,7 +159,7 @@ NOTE (2) that this application stores NO DATA, upon deletion it is completely re
 
 ## 📷 Preview
 
-![image](https://github.com/user-attachments/assets/f0d4181c-5049-4380-89da-e330868957fb)
+![image](https://github.com/user-attachments/assets/0e375c04-7695-4ea7-8607-f61c2afcae16)
 
 ---
 
@@ -194,12 +194,9 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 
 ### Version 1.0.0
 
-- [x] Name Change.
-- [x] Support for other Social Media URL Links.
-- [x] Improved User Interface.
-- [x] 4.1.0 -> 5.0.0
-- [ ] Packaged for PR.
-- [ ] Released.
+- [x] Initial Release.
+- [x] Packaged for PR.
+- [x] Released.
 
 ---
 
