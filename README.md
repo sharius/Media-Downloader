@@ -1,5 +1,7 @@
 # Media Downloader/Converter v1.0.0
 
+[![Download Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest/download/Media_Downloader_Setup.exe)
+
 A Python-based application designed to download video or audio content from a variety of popular social media platforms using a simple URL input.
 
 With support for sites such as YouTube, Instagram, TikTok, Facebook, and many others, the application allows you to retrieve media in your preferred format.
@@ -48,7 +50,7 @@ __TERMINATE__ - The terminate button kills the program, stopping the download if
    Visit the [Latest Release](https://github.com/Justagwas/Media-Downloader/releases/latest) and download `Media_Downloader_Setup.exe`,  
     or click the button below ↓.
    
-   [![Download Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download▼-Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest/download/Media_Downloader_Setup.exe)
+   [![Download Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest/download/Media_Downloader_Setup.exe)
 
 3. **Run the Installer**  
    Simply double-click the downloaded file to install the app.  
@@ -66,7 +68,7 @@ __TERMINATE__ - The terminate button kills the program, stopping the download if
     3.4 **Download**  
        Click on the **Download** button to start the process.
 
-Using the installer is essential as it automatically adds the application to the start menu, ensuring convenient access at any time.
+Using the installer is essential as it automatically adds the application to the start menu, making it convenient to access at any time.
 
 ---
 
@@ -74,7 +76,7 @@ Using the installer is essential as it automatically adds the application to the
 1. **Download**  
    Clone or download the repository as a ZIP file from the latest release:
    
-   [![Download Latest Release Media_Downloader.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/archive/refs/tags/v4.1.0.zip)
+   [![Download Latest Release Media_Downloader.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/archive/refs/tags/v1.0.0.zip)
 
 3. **Install Dependencies**  
    Ensure Python is installed on your system. Then, install the required libraries using the following command:
@@ -130,7 +132,7 @@ Follow these steps to package/build the Python script into an executable using *
 
 ## ⚠️ Warnings
 
-NOTE that all downloaded files from the application (Video/Audio files) are downloaded to the Downloads folder.
+NOTE that all downloaded files from the application (Video/Audio files) are downloaded to the newly created Media-Downloader folder in the Downloads folder (Downloads/Media-Downloader).
 
 RELEVANT IF YOU USED THE `Media_Downloader_Setup.exe` TO INSTALL THE PROGRAM.
 
