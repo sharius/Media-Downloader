@@ -200,6 +200,12 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 - [x] Packaged for PR.
 - [x] Released.
 
+### Version 1.1.0
+
+- [ ] Optimisations.
+- [ ] Packaged for PR.
+- [ ] Released.
+
 ---
 
 ## 📜 License
