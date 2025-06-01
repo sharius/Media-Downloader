@@ -203,6 +203,7 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 ### Version 1.1.0
 
 - [ ] Optimisations.
+- [ ] UI Improvements.
 - [ ] Packaged for PR.
 - [ ] Released.
 
