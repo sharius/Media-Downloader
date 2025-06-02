@@ -1,4 +1,4 @@
-# Media Downloader/Converter v1.0.0
+# Media Downloader/Converter v1.1.0
 
 [![Download Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest/download/Media_Downloader_Setup.exe)
 
@@ -76,7 +76,7 @@ Using the installer is essential as it automatically adds the application to the
 1. **Download**  
    Clone or download the repository as a ZIP file from the latest release:
    
-   [![Download Latest Release Media_Downloader.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/archive/refs/tags/v1.0.0.zip)
+   [![Download Latest Release Media_Downloader.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/archive/refs/tags/v1.1.0.zip)
 
 3. **Install Dependencies**  
    Ensure Python is installed on your system. Then, install the required libraries using the following command:
@@ -194,18 +194,14 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 
 ## 🚧 TODO List
 
-### Version 1.0.0
-
-- [x] Initial Release.
-- [x] Packaged for PR.
-- [x] Released.
-
 ### Version 1.1.0
 
-- [ ] Optimisations.
-- [ ] UI Improvements.
-- [ ] Packaged for PR.
-- [ ] Released.
+- [x] Heavy Optimisations.
+- [x] UI Rework.
+- [x] Feature Rework.
+- [x] File Handling Rework.
+- [x] Packaged for PR.
+- [x] Released.
 
 ---
 
