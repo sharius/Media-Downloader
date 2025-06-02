@@ -161,7 +161,7 @@ NOTE (2) that this application stores NO DATA, upon deletion it is completely re
 
 ## 📷 Preview
 
-![image](https://github.com/user-attachments/assets/0e375c04-7695-4ea7-8607-f61c2afcae16)
+![image](https://github.com/user-attachments/assets/7ab2ffab-11a7-48df-90d1-bf5037a479c5)
 
 ---
 
