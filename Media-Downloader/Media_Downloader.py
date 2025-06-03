@@ -21,7 +21,7 @@ class MediaDownloader:
     def __init__(self, root):
         self.root = root
         self.center_window(500, 340)
-        self.root.title("Media Downloader v1.1.1 (IN DEVELOPMENT)")
+        self.root.title("Media Downloader v1.1.1")
         self.root.geometry("500x340")
         self.root.configure(bg="#313131")
         self.root.resizable(False, False)
@@ -749,7 +749,7 @@ class MediaDownloader:
     def check_for_updates(self):
         def update_check():
             try:
-                current_version = "v1.1.0"
+                current_version = "v1.1.1"
                 releases_url = "https://api.github.com/repos/Justagwas/Media-Downloader/releases/latest"
                 response = requests.get(releases_url, timeout=10)
                 if response.status_code == 200:

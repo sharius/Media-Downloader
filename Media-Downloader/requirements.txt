@@ -1,4 +1,4 @@
-packaging==24.1
+packaging==25.0
 pathvalidate==3.2.3
 pywin32==308
 Requests==2.32.3
