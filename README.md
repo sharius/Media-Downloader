@@ -206,6 +206,7 @@ Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and deta
 ### Version 1.1.1
 
 - [ ] Library Updates.
+- [ ] CMD Console Fix.
 - [ ] Packaged for PR.
 - [ ] Released.
 
