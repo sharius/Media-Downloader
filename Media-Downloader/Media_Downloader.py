@@ -21,7 +21,7 @@ class MediaDownloader:
     def __init__(self, root):
         self.root = root
         self.center_window(500, 340)
-        self.root.title("Media Downloader v1.1.1")
+        self.root.title("Media Downloader v1.1.2 (IN DEVELOPMENT)")
         self.root.geometry("500x340")
         self.root.configure(bg="#313131")
         self.root.resizable(False, False)
