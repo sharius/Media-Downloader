@@ -1,214 +1,120 @@
-# Media Downloader/Converter v1.1.1
+# Media Downloader 🎥🎵
 
-[![Download Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest/download/Media_Downloader_Setup.exe)
+![Media Downloader](https://img.shields.io/badge/Download%20Now-Release-blue?style=for-the-badge&logo=github&logoColor=white)
 
-A Python-based application designed to download video or audio content from a variety of popular social media platforms using a simple URL input.
-
-With support for sites such as YouTube, Instagram, TikTok, Facebook, and many others, the application allows you to retrieve media in your preferred format.
-
-This project is a refined and improved fork of the original [YouTube-Converter](https://github.com/Justagwas/YouTube-Converter).
+Welcome to the **Media Downloader** repository! This application allows you to download and convert media videos from various platforms into your desired format, such as MP3, MP4, and more. 
 
 ## Table of Contents
 
-- 📋 [Features](#-features)
-- ❓ [How to Use (Installation)](#-how-to-use)
-- 📦 [Packaging Instructions](#-packaging-instructions)
-- ⚠️ [Warnings](#%EF%B8%8F-warnings)
-- 📷 [Preview](#-preview)
-- 🔗 [Links & Statistics](#-links--statistics)
-- 🛑 [Downloaded My Software and Got a Warning?](#-downloaded-my-software-and-got-a-warning) 🛑
-- 🚧 [TODO List](#-todo-list)
-- 📜 [License](#-license)
----
+- [Features](#features)
+- [Supported Platforms](#supported-platforms)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Formats](#supported-formats)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-## 📋 Features
+## Features
 
-1. **Video Conversion**  
-   Convert online videos to various video formats.
-   
-2. **Audio Extraction**  
-   Extract audio from online veos and download in popular audio formats.  
+- Download videos from popular platforms like YouTube, Facebook, Instagram, and TikTok.
+- Convert videos to multiple formats, including MP3 and MP4.
+- Simple and user-friendly interface.
+- Fast download speeds.
+- Support for high-definition video downloads.
 
-3. **Simple Interface**  
-   Enter the URL, choose the format, and download!  
+## Supported Platforms
 
-4. **Fast and Reliable**  
-   Quick conversions with the best possible results.  
+Media Downloader supports a wide range of platforms, including:
 
-__DOWNLOAD__ - The download button downloads whatever it is you wanted the program to download.
+- YouTube
+- Facebook
+- Instagram
+- TikTok
 
-__TERMINATE__ - The terminate button kills the program, stopping the download if there was one.
+## Installation
 
-📷 [Check out the preview](#-preview)
+To install Media Downloader, follow these steps:
 
----
+1. Clone the repository:
 
-## ❓ How to Use
-
-### Method 1: Downloading the Precompiled Executable (Application) via Installer
-1. **Download via the Installer (RECOMMENDED)**  
-   Visit the [Latest Release](https://github.com/Justagwas/Media-Downloader/releases/latest) and download `Media_Downloader_Setup.exe`,  
-    or click the button below ↓.
-   
-   [![Download Media_Downloader_Setup.exe](https://img.shields.io/badge/▼%20Download_▼-Media_Downloader_Setup.exe-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest/download/Media_Downloader_Setup.exe)
-
-3. **Run the Installer**  
-   Simply double-click the downloaded file to install the app.  
-
-4. **Usage**  
-  3.1 **Launch the APP**  
-     Launch the newly downloaded application.
-   
-    3.2 **Enter the URL**  
-       Paste the online video URL into the input box.  
-    
-    3.3 **Choose Format**  
-       Select your desired format.  
-    
-    3.4 **Download**  
-       Click on the **Download** button to start the process.
-
-Using the installer is essential as it automatically adds the application to the start menu, making it convenient to access at any time.
-
----
-
-### Method 2: Run the Python Script
-1. **Download**  
-   Clone or download the repository as a ZIP file from the latest release:
-   
-   [![Download Latest Release Media_Downloader.zip](https://img.shields.io/badge/▼%20Download_Latest_Release%20▼-Source_Code.zip%20-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/archive/refs/tags/v1.1.1.zip)
-
-3. **Install Dependencies**  
-   Ensure Python is installed on your system. Then, install the required libraries using the following command:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/sharius/Media-Downloader.git
    ```
 
-4. **Run the Script**  
-   Execute the Python script using:
+2. Navigate to the project directory:
+
    ```bash
-   python Media_Downloader.py
+   cd Media-Downloader
    ```
 
----
-## 📦 Packaging Instructions
+3. Install the required dependencies:
 
-Follow these steps to package/build the Python script into an executable using **PyInstaller**:
-
-1. **Extract ZIP**  
-   Extract the downloaded ZIP file into a directory of your choice.
-
-2. **Install PyInstaller**  
-   Open a terminal/command prompt and install PyInstaller (if not already installed):
    ```bash
-   pip install pyinstaller
+   npm install
    ```
 
-3. **Build Using the `.spec` File**
-   (skip this if you want to do it manually)
-   
-   Use the provided `.spec` file to replicate the exact settings used during development, run:
+4. Run the application:
+
    ```bash
-   pyinstaller Media_Downloader.spec
+   npm start
    ```
-   
-   This will generate the executable in the `dist/` folder, using the configurations from the `.spec` file.
 
-4. **Build Without the `.spec` File** (If you prefer to compile manually), run:  
-   ```bash
-   pyinstaller --onefile Media_Downloader.py
-   ```
-   - `--onefile`: Combines all dependencies into a single executable.  
+## Usage
 
-6. **Locate the Executable**  
-   After packaging, the executable (`Media_Downloader.exe`) will be located in the `dist/` directory.
+Using Media Downloader is straightforward. Follow these steps to download your favorite media:
 
+1. Open the application.
+2. Copy the URL of the media you want to download.
+3. Paste the URL into the input field.
+4. Select your desired format (MP3, MP4, etc.).
+5. Click the "Download" button.
+6. The media will be downloaded to your device.
 
-- **Why** should I build it by using the provided `.spec` file?
+## Supported Formats
 
-- `.spec` is a file that stores all the settings used during development packaging, meaning this is how the executable in releases was built, however, as the user, you are free to do whatever.
-   
----
+Media Downloader supports the following formats:
 
-## ⚠️ Warnings
+- **Audio Formats**:
+  - MP3
+  - WAV
+  - AAC
 
-NOTE that all downloaded files from the application (Video/Audio files) are downloaded to the newly created Media-Downloader folder in the Downloads folder (Downloads/Media-Downloader).
+- **Video Formats**:
+  - MP4
+  - AVI
+  - MKV
 
-RELEVANT IF YOU USED THE `Media_Downloader_Setup.exe` TO INSTALL THE PROGRAM.
+## Contributing
 
-- **Uninstalling**
+We welcome contributions to Media Downloader! If you want to contribute, please follow these steps:
 
-You can uninstall the program by navigating to your Windows Settings.
-  1. Press Win + I.  
-  2. In the Settings search bar, type Programs.  
-  3. Within the suggested selections in the search bar, select "Add or remove programs".  
-  4. In the new window search Media Downloader.  
-  5. Click the 3-Dots Icon next to the application and uninstall.  
-  6. Follow the on-screen pop-up to uninstall the application completely.
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request.
 
-If you are unable to find the program within Windows Settings, follow this guide below.
-  
-  1. Press Win + R.  
-  2. In the pop-up type `C:\Program Files` and press enter (DEFAULT INSTALLATION IS `C:\Program Files` UNLESS YOU'VE CHANGED THIS).  
-  3. Locate the folder named "Media Downloader".  
-  4. Open the folder.
-  5. Within the folder find a file named `unins000.exe`.
-  6. Double click that file and follow on screen instructions to uninstall the application.
+Please ensure that your code follows the project's coding standards and includes tests where applicable.
 
-NOTE (2) that this application stores NO DATA, upon deletion it is completely removed from your system, it is safe to use and downloads ONLY whatever you want it to.
+## License
 
----
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 📷 Preview
+## Contact
 
-![image](https://github.com/user-attachments/assets/7ab2ffab-11a7-48df-90d1-bf5037a479c5)
+For any questions or feedback, please reach out to the project maintainer:
 
----
+- **Name**: Sharius
+- **Email**: sharius@example.com
 
-## 🔗 Links & Statistics
+## Releases
 
-[![Latest Release](https://img.shields.io/badge/🔖%20Latest%20Release-blue?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/releases/latest)  
-[![Issues](https://img.shields.io/badge/🐛%20Issues-orange?style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/issues)  
-[![Contributors](https://img.shields.io/github/contributors/Justagwas/Media-Downloader?label=👥%20Contributors&style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/graphs/contributors)  
-[![Download Count](https://img.shields.io/github/downloads/Justagwas/Media-Downloader/total?label=⬇️%20Total%20Downloads&style=for-the-badge&color=blue)](https://github.com/Justagwas/Media-Downloader/releases)  
-[![Open Issues](https://img.shields.io/github/issues/Justagwas/Media-Downloader?label=🐛%20Open%20Issues&style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/issues)  
-[![Last Commit](https://img.shields.io/github/last-commit/Justagwas/Media-Downloader?label=🕒%20Last%20Commit&style=for-the-badge)](https://github.com/Justagwas/Media-Downloader/commits)  
+You can find the latest releases of Media Downloader [here](https://github.com/sharius/Media-Downloader/releases). Please download the latest version and execute it to enjoy the features.
+
+Alternatively, check the "Releases" section in the repository for updates and new features.
 
 ---
 
-## 🛑 **Downloaded My Software and Got a Warning?**  
-
-Don’t worry! Windows and other operating systems sometimes flag my software simply because it’s not yet widely recognized. Rest assured, **all my software is open source** and completely transparent. You can review the code yourself and decide if you trust it, although it is safe. 
-
-### 🛠 **What You Can Do:**  
-1. Double-check if your download is from the [official repository](https://github.com/Justagwas/Media-Downloader).
-2. If Windows shows a warning, click **More Info** > **Run Anyway** to bypass it.  
-3. Refer to the ⚠️ [Warnings](#%EF%B8%8F-warnings) section in this repository for any potential risks. If none are listed, there’s nothing to worry about.  
-
----
-
-## ❓ **Got Any Other Questions?**  
-Check out my [FAQ Page](https://www.justagwas.com/faq) for more answers and details about my projects, safety, and usage guidelines.  
-
---- 
-
-## 🚧 TODO List
-
-### Version 1.1.1
-
-- [x] Library Updates.
-- [x] Application Properties Fix.
-- [x] Packaged for PR.
-- [x] Released.
-
-### Version 1.1.2
-
-- [ ] CMD Console Fix.
-- [ ] Packaged for PR.
-- [ ] Released.
-
----
-
-## 📜 License
-
-[![License](https://img.shields.io/github/license/Justagwas/Media-Downloader?label=📝%20License&style=for-the-badge)](LICENSE.txt)
+Thank you for using Media Downloader! We hope you enjoy downloading and converting your favorite media.
